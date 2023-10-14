@@ -1,9 +1,5 @@
-# text backup files
+# Text backup files
 *.bak
 
-# DB
+# Database
 *.sqlite3
-
-*migrations*
-
-*pycache*
