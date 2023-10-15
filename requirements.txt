@@ -33,3 +33,5 @@ tzdata==2023.3
 whitenoise==6.6.0
 wrapt==1.15.0
 zipp==3.17.0
+python-3.10.7
+psycopg2-binary==2.8.6
