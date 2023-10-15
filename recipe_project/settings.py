@@ -23,7 +23,8 @@ import os
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-ml49cp(e)=yakpevh4xz)3w)6xuq6kv7g&3^xf^)gr-n3&p#%9')
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with 
+#  turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'arcane-savannah-13758.herokuapp.com']
@@ -128,6 +129,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+STATIC_URL = '/static/'
 STATICFILES_DIRS=[
    BASE_DIR / 'static'
 ]
